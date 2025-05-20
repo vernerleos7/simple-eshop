@@ -1,0 +1,22 @@
+{
+  "name": "simple-eshop",
+  "version": "1.0.0",
+  "description": "Zjednodušený eshop s Express a SQLite",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": ["eshop", "express", "sqlite"],
+  "author": "Tvé jméno",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
